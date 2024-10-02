@@ -5,13 +5,37 @@ body {
 
 .base {
   background-color: white;
-  display: inline-block;
+  display: flex;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 5px 25px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
 }
 
-.qr-code-image {
+.QR-image {
   width: 300px;
+  border-radius: 15px;
+}
+
+.title {
+  padding-top: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  width: 300px;
+}
+
+.text {
+  width: 260px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: hsl(216, 15%, 48%);
 }
